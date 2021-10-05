@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    
+}
+.red{
+    color: red;
+}
+
+h3{
+text-align: center;
+}
+header{
+    display: flex;
+    background-image: url(img/fashion.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    padding: 50px;
+
+    height: 155px;
+    /* width: 500px; */
+    position: relative;
+}
+
+
+input{
+    width: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    text-decoration-style: double;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    font-family: 'Roboto', sans-serif;
+    padding: 1px;
+    margin: 1px;
+    display: flex;
+}
+.navclass{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+
+
+}
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 150px 0 0 70px ;
+}
+
+nav li{
+    list-style-type: none;
+    list-style: none;
+    display: inline-block;
+    padding-left: 170px;
+    padding-right: 170px;
+    background-color: fuchsia;
+}
+li a{
+    padding: 10px;
+    color: black;
+    text-decoration: solid;
+}
+img{
+    width: 140px;
+    height: 140px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+.image{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.addBag{
+    position: absolute;
+    width: 100%;
+    background-color: ghostwhite;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer ;
+    text-align: center;
+}
+.image:hover .bag1, .image:hover .bag2, .image:hover .bag3, .image:hover .bag4, .image:hover .bag5, .image:hover .bag6, .image:hover .bag7, .image:hover .bag8, .image:hover .bag9, .image:hover .bag10, .image:hover .bag11, .image:hover .bag12{
+    opacity: 1;
+    bottom: 50px;
+    padding: 2px;
+    text-decoration: none;
+}
+ .partition{
+     display: inline-block;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin: 10px;
+     position: relative;
+     text-align: center;
+     justify-content: center;
+     text-decoration: solid;
+
+ }
+.resize{
+    width : 3px;
+}
